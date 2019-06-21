@@ -1,10 +1,13 @@
 # docker compose Environment variables
+## Build image
+docker build -t prueba .
 
-# Default environment
+## Default environment
 docker-compose up
 
-# Development environment
+## Development environment
 docker-compose -f docker-compose.dev.yml up
 
-# Development environment
+## Development environment
 docker-compose -f docker-compose.prod.yml up
+
