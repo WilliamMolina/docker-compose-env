@@ -1,0 +1,5 @@
+version: '3.3'
+services:
+    python:
+      env_file: prod.env
+      image: 'prueba'
